@@ -16,6 +16,7 @@
   /* выше установили ограничения для секции */
   position: relative;
   display: flex;
+  align-items: center;
   background-color:  #f2f2f2;
 }
 
@@ -27,7 +28,7 @@
 }
 
 .logo_place_header {
-  background-image: url("../images/logo_place_header.svg");
+  background-image: url(../images/logo_place_header.svg);
   position: absolute;
   z-index: 2;
   top: 30px;
@@ -35,7 +36,7 @@
 }
 
 .header__title {
-  align-self: center;
+  /* align-items: center; */
   padding-left: 64px;
   width: 730px;
   z-index: 2;
@@ -136,7 +137,6 @@
   font-weight: 600;
   text-align: center;
   margin: 0;
-
 }
 
 .section-subtitle {
@@ -155,6 +155,7 @@
   flex-wrap: wrap;
   justify-content: space-between;
   margin: 0;
+  z-index: 1;
 }
 
 .table__cell {
@@ -213,10 +214,59 @@
   color: #2f80ed;
 }
 
+.kaufman {
+  background-color: #1f1f1f;
+  margin: 0;
+  padding-top: 90px;
+  padding-bottom: 90px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.section-title_theme_dark {
+  color: white;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: 600;
+}
+
+.section-subtitle_theme_dark {
+  color: white;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
   width: 200px;
   color: white;
   margin-right: 0;
   margin-top: 80px;
+}
+
+.table__heading_theme_dark {
+  color: white;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.table__text_theme_dark {
+  color: white;
+  line-height: 1.12;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.kaufman__triangle {
+  width: 877px;
+  height: 877px;
+  position: absolute;
+  background-image: url(../images/kaufman-triangle.svg);
+  top: 0;
+  right: -210px;
 }
