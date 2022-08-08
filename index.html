@@ -20,7 +20,7 @@
         <p class="header__subtitle">
           Какие современные и эффективные подходы к обучению вы можете
           использовать в своей жизни?
-          <a href="#" class="header__link">Узнать →</a>
+          <a href="#" class="header__link">Узнать &rarr;</a>
         </p>
         <img
           src="./images/header-image.png"
@@ -32,8 +32,8 @@
 
       <!-- Основное содержимое страницы -->
       <main class="content">
-        <section class="description">
-          <div class="two-columns">
+        <section class="description" aria-label="Описание главных проблем в обучении">
+          <article class="two-columns">
             <h2 class="two-columns__brief">Главные проблемы в обучении</h2>
             <div class="two-columns__main-text">
               <p class="two-columns__paragaph">
@@ -54,7 +54,7 @@
                 техники применяются на примере обучения в Практикуме.
               </p>
             </div>
-          </div>
+          </article>
         </section>
         <section class="digits">
           <h2 class="section-title">Цифры и факты</h2>
@@ -107,7 +107,7 @@
         <section class="feynman">
           <h2 class="feynman__title">Метод Фейнмана</h2>
           <h3 class="feynman__subtitle">Выучить и не забыть.</h3>
-          <a href="#" class="feynman__link">Подробнее →</a>
+          <a href="#" class="feynman__link">Подробнее &rarr;</a>
         </section>
         <section class="kaufman">
           <h2 class="section-title section-title_theme_dark">
@@ -185,22 +185,22 @@
       <!-- Подвал сайта -->
       <footer class="footer">
         <div class="footer__columns">
-          <nav class="footer__column footer__column_content_coopyright">
+          <div class="footer__column footer__column_content_coopyright">
             <div class="logo logo_place_footer"></div>
             <p class="footer__author">&copy; Роман Фролов</p>
-          </nav>
+          </div>
 
-          <nav class="footer__column footer__column_content_info">
-            <h5 class="footer__column-heading">О Практикуме</h5>
+          <div class="footer__column footer__column_content_info">
+            <h2 class="footer__column-heading">О Практикуме</h2>
             <ul class="footer__column-links">
               <li><a href="#" class="footer__column-link">Главная</a></li>
               <li><a href="#" class="footer__column-link">Концепции</a></li>
               <li><a href="#" class="footer__column-link">Наставники</a></li>
             </ul>
-          </nav>
+          </div>
 
-          <nav class="footer__column footer__column_content_social">
-            <h5 class="footer__column-heading">Соцсети</h5>
+          <div class="footer__column footer__column_content_social">
+            <h2 class="footer__column-heading">Соцсети</h2>
             <ul class="footer__column-links">
               <li>
                 <a href="#" class="footer__column-link"
@@ -230,7 +230,7 @@
                 >
               </li>
             </ul>
-          </nav>
+          </div>
         </div>
       </footer>
     </div>
