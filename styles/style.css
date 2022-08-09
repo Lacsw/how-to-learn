@@ -130,7 +130,7 @@
 }
 
 .digits {
-  margin: 100px auto 0;
+  margin: 100px auto;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -145,6 +145,7 @@
   margin: 0;
   padding: 0;
   color: #000000;
+  z-index: 1;
 }
 
 .section-subtitle {
@@ -199,7 +200,8 @@
   background-repeat: no-repeat;
   background-position: bottom left;
   background-color: #f2f2f2;
-  margin-top: 100px;
+  padding-top: 100px;
+  box-sizing: border-box;
   position: relative;
 }
 
