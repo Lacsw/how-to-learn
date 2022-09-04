@@ -3,7 +3,7 @@
 Одностраничный сайт про обучение, основные техники и проблемы.  
 *Кратко и полезно, будет инетересно!*
 
-> сделно на курсах [Yandex.Practikum](https://practicum.yandex.ru/)
+> сделано на курсах [Yandex.Practikum](https://practicum.yandex.ru/)
 
 ## Используемые технологии :loop:
 - [HTML](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics)
