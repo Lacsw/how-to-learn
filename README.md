@@ -3,7 +3,7 @@
 Одностраничный сайт про обучение, основные техники и проблемы.  
 *Кратко и полезно, будет инетересно!*
 
-lacsw.github.io/how-to-learn/
+[Link to site](https://lacsw.github.io/how-to-learn/)
 
 ## Используемые технологии :loop:
 - [HTML](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics)
